@@ -20,3 +20,12 @@ end
 group :development, :test do
   gem "debug"
 end
+
+group :development, :test, :rubocop do
+  gem "rubocop-capybara", require: false
+  gem "rubocop-factory_bot", require: false
+  gem "rubocop-rails", require: false
+  gem "rubocop-rspec", require: false
+  gem "rubocop-rubycw", require: false
+  gem "standard", "~> 1.34", require: false
+end
