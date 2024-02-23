@@ -31,3 +31,7 @@ group :development, :test, :rubocop do
   gem "rubocop-rubycw", require: false
   gem "standard", "~> 1.34", require: false
 end
+
+group :test do
+  gem "shoulda-matchers"
+end
