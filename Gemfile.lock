@@ -227,13 +227,12 @@ DEPENDENCIES
   cssbundling-rails
   debug
   jsbundling-rails
-  pg (~> 1.1)
+  pg
   propshaft
-  puma (>= 5.0)
-  rails (~> 7.1.3, >= 7.1.3.2)
+  puma
+  rails
   stimulus-rails
   turbo-rails
-  tzinfo-data
   web-console
 
 RUBY VERSION
