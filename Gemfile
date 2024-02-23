@@ -9,6 +9,7 @@ gem "pg"
 gem "propshaft"
 gem "puma"
 gem "rails"
+gem "rails-i18n"
 gem "stimulus-rails"
 gem "turbo-rails"
 
