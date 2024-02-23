@@ -20,6 +20,7 @@ end
 
 group :development, :test do
   gem "debug"
+  gem "factory_bot_rails"
   gem "rspec-rails"
 end
 

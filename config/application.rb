@@ -42,6 +42,7 @@ module Diary
     # config.eager_load_paths << Rails.root.join("extras")
 
     config.generators do |g|
+      g.factory_bot suffix: "factory"
       g.helper false
       g.test_framework :rspec, request_specs: false, view_specs: false
     end
