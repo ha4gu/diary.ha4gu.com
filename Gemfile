@@ -4,6 +4,7 @@ ruby "3.3.0"
 
 gem "bootsnap", require: false
 gem "cssbundling-rails"
+gem "image_processing"
 gem "jsbundling-rails"
 gem "pg"
 gem "propshaft"
